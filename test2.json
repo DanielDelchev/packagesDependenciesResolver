@@ -1,0 +1,15 @@
+[
+{"name" : "A", "requires" : ["B", "D", "E"]},
+{"name" : "B", "requires" : ["F"]},
+{"name" : "C", "requires" : ["G", "H"]},
+{"name" : "D", "requires" : ["G"]},
+{"name" : "E", "requires" : ["X","Y","W","Z"]},
+{"name" : "F", "requires" : ["Y"]},
+{"name" : "G", "requires" : ["R"]},
+{"name" : "H", "requires" : []},
+{"name" : "X", "requires" : []},
+{"name" : "Y", "requires" : ["X"]},
+{"name" : "W", "requires" : ["Z"]},
+{"name" : "Z", "requires" : []},
+{"name" : "R", "requires" : ["X","Y","Z"]}
+]

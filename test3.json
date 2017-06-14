@@ -1,0 +1,10 @@
+[
+{"name" : "A", "requires" : ["B", "D", "E"]},
+{"name" : "B", "requires" : ["F"]},
+{"name" : "C", "requires" : ["G", "H"]},
+{"name" : "D", "requires" : ["G"]},
+{"name" : "E", "requires" : ["A"]},
+{"name" : "F", "requires" : []},
+{"name" : "G", "requires" : []},
+{"name" : "H", "requires" : []}
+]
